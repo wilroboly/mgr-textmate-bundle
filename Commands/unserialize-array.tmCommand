@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#! /usr/bin/env php
 &lt;?php
-echo json_encode(unserialize(file_get_contents('php://stdin')));
+echo json_encode(unserialize(file_get_contents('php://stdin')), TRUE);
 ?&gt;</string>
 	<key>input</key>
 	<string>selection</string>
