@@ -7,15 +7,15 @@
 	<key>command</key>
 	<string>#! /usr/bin/env php
 &lt;?php
-echo json_encode(unserialize(file_get_contents('php://stdin')));
+echo(serialize(file_get_contents('php://stdin')));
 ?&gt;</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>name</key>
-	<string>php - unserialize array to JSON</string>
+	<string>php - serialize JSON array</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>uuid</key>
-	<string>01923349-5334-41F2-BCBB-404AD45CC1AF</string>
+	<string>401c0e54-ca2a-487f-91f5-263dd9406198</string>
 </dict>
 </plist>
